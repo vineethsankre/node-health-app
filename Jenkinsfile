@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/vineethsankre/node-health-app.git'
+                git clone 'https://github.com/vineethsankre/node-health-app.git'
             }
         }
 
